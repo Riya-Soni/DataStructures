@@ -53,4 +53,5 @@ this will check the string as per dictionary sequence by default,
 that means no  restriction for string length
 but this is case sensitive so, it will arrange Capital letters first then according their UNICODE value
 if number came, they before any letter
+
 */
