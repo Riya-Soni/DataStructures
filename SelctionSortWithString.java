@@ -14,10 +14,10 @@ public class SelctionSortWithString {
         for( i=0; i<n; i++)
             arr[i] = sc.next();
         
-        /*STATIC INITIALIZATION
+        /*
+        STATIC INITIALIZATION
         String arr[] = {"x","z","c","h","a"};
         int n = arr.length;
-        int i=0,j=0,x=0;
         */
         
         System.out.println("Elements of UnSorted array: ");
@@ -47,3 +47,10 @@ public class SelctionSortWithString {
         }
     }
 }
+
+/*
+this will check the string as per dictionary sequence by default,
+that means no  restriction for string length
+but this is case sensitive so, it will arrange Capital letters first then according their UNICODE value
+if number came, they before any letter
+*/
